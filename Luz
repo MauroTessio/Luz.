@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Luz</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Nuestro Objetivo</h2>
+            <p>En Luz, estamos dedicados a comercializar productos de diversos estilos y utilizar las ganancias para causas benéficas.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Luz es una marca que busca reempaquetar productos y venderlos bajo nuestra marca, utilizando los fondos obtenidos para causas sociales.</p>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta, no dudes en <a href="mailto:contacto@luz.com">contactarnos</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Luz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Celeste claro */
+}
+
+header {
+    background-color: #003366; /* Azul marino */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #003366; /* Azul marino */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
